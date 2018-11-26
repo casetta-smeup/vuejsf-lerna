@@ -37,6 +37,8 @@ interface DataTable {
 }
 
 @Component({
+  name: "SmeupMatrix",
+
   components: {
     MatrixBody,
     MatrixHeader
@@ -83,7 +85,6 @@ export default class SmeupMatrix extends Vue {
   // lifecicle hooks
   created() {
     this.initMatrix();
-    console.log("lolololol created! 2222222");
   }
 
   // computed props

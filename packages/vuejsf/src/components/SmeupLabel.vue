@@ -1,12 +1,11 @@
 <template>
-  <div
-    @click="onLabelClick"
-    :style="{color: color, textAlign: align}"
-  >{{ content }}</div>
+  <div @click="onLabelClick" :style="{color: color, textAlign: align}">{{ content }}</div>
 </template>
 
 <script>
 export default {
+  name: "SmeupLabel",
+
   props: {
     align: {
       type: String

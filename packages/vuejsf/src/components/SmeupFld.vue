@@ -28,6 +28,8 @@ import InputText from "./fields/InputText.vue";
 import NotImplemented from "./fields/NotImplemented.vue";
 
 export default {
+  name: "SmeupFld",
+
   props: {
     disabled: {
       type: Boolean,

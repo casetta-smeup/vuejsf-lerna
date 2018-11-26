@@ -17,8 +17,6 @@
 <script>
 import importedData from "./mock/dataTable";
 
-import { SmeupFld } from 'vuejsf'
-
 export default {
   name: "app",
 
@@ -26,10 +24,6 @@ export default {
     return {
       data: importedData
     };
-  },
-
-  components: {
-    SmeupFld
   },
 
   methods: {

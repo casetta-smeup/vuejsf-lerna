@@ -1,24 +1,13 @@
-// https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3
+import SmeupFld from "./src/components/SmeupFld.vue";
+import SmeupLabel from "./src/components/SmeupLabel.vue";
+import SmeupMatrix from "./src/components/comp/mat/SmeupMatrix.vue";
 
-import Vue from "vue";
-
-// components
-import Fld from "./src/components/SmeupFld.vue";
-import Label from "./src/components/SmeupLabel.vue";
-import Matrix from "./src/components/comp/mat/SmeupMatrix.vue";
-
-const SmeupComponents = {
-  Fld,
-  Label,
-  Matrix
+const VueJsf = {
+  install(Vue) {
+    Vue.component(SmeupFld.name, SmeupFld);
+    Vue.component(SmeupLabel.name, SmeupLabel);
+    Vue.component(SmeupMatrix.name, SmeupMatrix);
+  }
 };
 
-Object.keys(SmeupComponents).forEach(name =>
-  Vue.component(name, SmeupComponents[name])
-);
-
-export const SmeupFld = SmeupComponents.Fld;
-export const SmeupLabel = SmeupComponents.Label;
-export const SmeupMatrix = SmeupComponents.Matrix;
-
-export default SmeupComponents;
+export default VueJsf;
