@@ -10,7 +10,7 @@ export default class Column {
     this.code = c.code;
     this.filterValue = c.filterValue;
     this.sortMode = c.sortMode;
-    this.align = "NR" === c.ogg ? 'right' : 'left';
+    this.align = "NR" === c.ogg ? "right" : "left";
   }
 
   get isAscending() {

@@ -19,11 +19,9 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 @Component
 export default class DataRow extends Vue {
   // props
-  @Prop()
-  private columns!: any[];
+  @Prop() private columns!: any[];
 
-  @Prop()
-  private row!: any;
+  @Prop() private row!: any;
 
   // methods
   onCellClick(column: any) {

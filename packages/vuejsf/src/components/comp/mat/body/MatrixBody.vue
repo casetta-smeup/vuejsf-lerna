@@ -27,20 +27,15 @@ import GroupRow from "./GroupRow.vue";
 })
 export default class MatrixBody extends Vue {
   // props
-  @Prop()
-  private columns!: any[];
+  @Prop() private columns!: any[];
 
-  @Prop()
-  private rows!: any[];
+  @Prop() private rows!: any[];
 
-  @Prop()
-  private filterable!: boolean;
+  @Prop() private filterable!: boolean;
 
-  @Prop()
-  private sortable!: boolean;
+  @Prop() private sortable!: boolean;
 
-  @Prop()
-  private grouping!: boolean;
+  @Prop() private grouping!: boolean;
 
   // methods
   onRowSelect($event: any) {

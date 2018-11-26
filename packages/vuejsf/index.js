@@ -13,7 +13,9 @@ const SmeupComponents = {
   Matrix
 };
 
-Object.keys(SmeupComponents).forEach(name => Vue.component(name, SmeupComponents[name]));
+Object.keys(SmeupComponents).forEach(name =>
+  Vue.component(name, SmeupComponents[name])
+);
 
 export const SmeupFld = SmeupComponents.Fld;
 export const SmeupLabel = SmeupComponents.Label;

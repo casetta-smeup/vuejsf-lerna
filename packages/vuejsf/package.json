@@ -6,8 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build:bundle": "rimraf dist && vue-cli-service build --target lib --name vueup ./src/components/index.js",
-    "build:label": "rimraf dist && vue-cli-service build --target lib --name SmeupLabel src/components/SmeupLabel.vue",
+    "build:bundle": "rimraf dist && vue-cli-service build --target lib --name vueup ./index.js",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {

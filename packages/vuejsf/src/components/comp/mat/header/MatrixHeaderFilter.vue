@@ -36,11 +36,9 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 @Component
 export default class MatrixHeaderFilter extends Vue {
   // props
-  @Prop()
-  private column!: any;
+  @Prop() private column!: any;
 
-  @Prop()
-  private rows!: any[];
+  @Prop() private rows!: any[];
 
   filterValue: string = this.column.filterValue;
 

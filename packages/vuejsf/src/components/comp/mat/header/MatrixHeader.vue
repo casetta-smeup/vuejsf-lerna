@@ -62,20 +62,16 @@ import MatrixHeaderFilter from "./MatrixHeaderFilter.vue";
 })
 export default class MatrixHeader extends Vue {
   // props
-  @Prop()
-  private columns!: any[];
+  @Prop() private columns!: any[];
 
-  @Prop()
-  private rows!: any[];
+  @Prop() private rows!: any[];
 
   @Prop({ default: false })
   private filterable!: boolean;
 
-  @Prop()
-  private sortable!: boolean;
+  @Prop() private sortable!: boolean;
 
-  @Prop()
-  private grouping!: boolean;
+  @Prop() private grouping!: boolean;
 
   // methods
   onCellClick(col: any) {
