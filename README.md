@@ -3,6 +3,7 @@
 Dopo aver scaricato il progetto da github, lanciare da riga di comando:
 
 ```
+npm install
 lerna bootstrap
 ```
 
