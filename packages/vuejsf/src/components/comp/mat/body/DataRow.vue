@@ -48,7 +48,7 @@ tr {
 
   td {
     padding: 5px;
-    border: 1px solid red;
+    border: 1px solid black;
   }
 }
 </style>
