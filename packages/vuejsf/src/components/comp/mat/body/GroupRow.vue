@@ -4,7 +4,7 @@ tr.group-row {
 
   td {
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid blue;
     border-left: none;
     border-right: none;
     text-align: left;

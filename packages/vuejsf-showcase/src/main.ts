@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 
-import VueJsf from 'vuejsf';
+import VueJsf from "vuejsf";
 
 Vue.config.productionTip = false;
 

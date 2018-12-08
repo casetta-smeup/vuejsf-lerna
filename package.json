@@ -2,7 +2,11 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "serve": "lerna run serve --scope vuejsf-showcase --stream"
+    "serve": "lerna run serve --scope vuejsf-showcase --stream",
+    "build": "lerna run build --stream",
+    "lint": "lerna run lint --parallel",
+    "test:unit": "lerna run test:unit --stream",
+    "local:run": "lerna run local:run --stream"
   },
   "devDependencies": {
     "lerna": "^3.4.3"

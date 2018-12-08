@@ -1,5 +1,13 @@
 <template>
   <div id="app">
+
+    <SmeupLabel
+      content="Test"
+      color="#CCCCCC"
+      align="center"
+      @click="onLabelClick"
+    />
+
     <SmeupFld
       id="fld1"
       type="Itx"
@@ -29,7 +37,7 @@ export default {
   methods: {
     onFldChange() {
       // TODO
-    }, 
+    },
 
     onFldClick() {
       // TODO
