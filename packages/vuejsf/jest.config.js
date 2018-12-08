@@ -22,7 +22,7 @@ module.exports = {
       "jest-junit",
       {
         output: "target/test/unit/junit/junit.xml",
-        classNameTemplate: "{classname}",
+        classNameTemplate: "VueJsf unit - {classname}",
         titleTemplate: "{classname} - {title}"
       }
     ],
